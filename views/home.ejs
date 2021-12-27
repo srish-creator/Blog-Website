@@ -1,0 +1,15 @@
+<%-include('partials/header');-%>
+<h1>Home</h1>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/wIXCWgjtbmA" frameborder="0" allowfullscreen></iframe>
+</iframe>
+<p><%= Startingcontent %></p>
+<% posts.forEach(function(posts1) { %>
+ 
+ <h1> <%= posts1.Title%></h1> 
+ <p><%= posts1.Content.substring(0,130)%> ...<a href="/posts/:<%=posts1.Title%>">Read more</a></p>
+
+<%})%>
+ 
+
+
+<%-include('partials/footer');-%>

@@ -1,0 +1,25 @@
+
+h1{
+    margin-top: 3%;
+    color:black;
+ 
+}
+a,.navbar-brand{
+    padding: 1rem;
+    font-size: larger;
+    font-weight: 600;
+    color: grey;
+}
+p{
+    margin-top: 2%;
+    line-height:1em;
+}
+
+footer{
+    height: 100%;
+    margin-top: 23%;
+}
+.footer-box{
+    margin-top: 10%;
+background-color: gray;
+}
